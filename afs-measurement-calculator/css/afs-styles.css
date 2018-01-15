@@ -1,0 +1,66 @@
+.fields-row{
+	display: block;
+	clear: both;
+	margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.calc-field, .calc-totals {
+    display: block;
+    clear: both;
+}
+
+.calc-totals{
+	margin-top: 15px;
+}
+
+.calc-field label p, .finishing label p{
+    float: left;
+    margin-bottom: 6px;
+}
+
+.calc-field label p{
+	width: 26%;
+}
+
+.finishing label p{
+	width: 55%;
+}
+
+.calc-field .number_input{
+	width: 30%;
+    float: left;
+    margin-right: 3%;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.calc-field select.finishing-options{
+	width: 36%;
+}
+
+.totals-container.fields-row div {
+    display: inline-block;
+}
+
+.calc-totals div {
+    display: inline-block;
+    text-align: right;
+}
+
+.finishing label{
+	display: block;
+	clear: both;
+}
+
+.finishing select.finishing-options {
+    width: 45%;
+    float: left;
+}
+
+
+#numberofsides{
+    display: none;
+}
+
+
